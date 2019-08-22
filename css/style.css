@@ -52,8 +52,12 @@ body {
     justify-content: center;
 }
 
-.link:visited {
+.link {
     padding: 10px;
+}
+
+.link:visited {
+    color: black;
 }
 
 #myimg {
