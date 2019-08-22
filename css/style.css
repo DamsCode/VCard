@@ -1,0 +1,67 @@
+html,
+body {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+}
+
+#card {
+    display: flex;
+    justify-content: center;
+    height: 120%;
+    align-items: center;
+}
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+}
+
+.flex-col {
+    display: flex;
+    flex-direction: column;
+}
+
+.blockh {
+    background-color: dodgerblue;
+    justify-content: space-around;
+}
+
+.blockb {
+    justify-content: space-around;
+}
+
+.conteneur {
+    border: 2px dashed black;
+    width: 80%;
+    height: 80%;
+}
+
+.blocklenght {
+    flex: 1 1 0;
+    padding: 20px
+}
+
+.tcenter {
+    text-align: center;
+}
+
+.blockcenter {
+    justify-content: center;
+}
+
+.link:visited {
+    padding: 10px;
+}
+
+#myimg {
+    width: 260px;
+    height: 260px;
+}
+
+#nom {
+    font-size: 40px;
+    color: white;
+}
